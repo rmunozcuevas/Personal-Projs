@@ -8,8 +8,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 
 
 # Set up the credentials
-CLIENT_ID = '319888ade977417d97bc259715e75375'  # Replace with your actual client ID
-CLIENT_SECRET = 'ff025374d2ec4fb083e25680bfff88aa'  # Replace with your actual client secret
+CLIENT_ID = 'EDITED FOR PRIVACY'  # Replace with your actual client ID
+CLIENT_SECRET = 'EDITED FOR PRIVACY'  # Replace with your actual client secret
 REDIRECT_URI = 'http://localhost:8888/callback'
 #----------------------------------------------------
 import os
