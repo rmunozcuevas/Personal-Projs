@@ -119,14 +119,14 @@ for idx, track in enumerate(results['tracks']['items']):
     print(f"{idx + 1}. {track['name']} - {track['artists'][0]['name']}")
 print("*---------------------------------------------------------------*")
 
-
+# This line of code never went anywhere really
 lana = 'https://open.spotify.com/artist/00FQb4jTyendYWaN8pK0wa?si=qRS3Cy5JSf6GtbVdbQaT7A'
 
 
 # https://spotipy.readthedocs.io/en/2.24.0/
-# List of features I want to add
-# - Ability to search up an artist from input
-# - ability to create a playlist and add songs to it
+# List of features I want to add 
+# - Ability to search up an artist from input (Done)
+# - ability to create a playlist and add songs to it (Done)
 
 
 
