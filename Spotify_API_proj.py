@@ -20,8 +20,6 @@ user = 'FitGoesHard'
 
 #----------------------------------------------------
 
-## essentially my client id and client secret are allowing spotify to give me access to their public data and verify me, however I cannot currently use any personal data yet
-
 # Authenticate using client credentials
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=CLIENT_ID, client_secret=CLIENT_SECRET, redirect_uri = REDIRECT_URI, scope = SCOPE))
 
